@@ -23,6 +23,8 @@ La guida fa riferimento alla versione più recente di Open Broadcast Software pe
 
    Una volta scaricato ed installato, aprendo il software viene visualizzata una finestra simile alla seguente
    
+   ![alt text](/cartellaScreen/init.jpg) 
+   
    Se invece venisse visualizzato un riquadro nero ci si riferisca la TroubleShooting
    
 + Al primo avvio dovrebbero già essere presenti tutte le informazioni minime necessarie alla registrazione, fra cui
@@ -31,12 +33,17 @@ La guida fa riferimento alla versione più recente di Open Broadcast Software pe
   * Una o più fonti di registrazione audio 
   * Pannello di controllo delle registrazioni
   
+![alt text](/cartellaScreen/init.jpg) 
+  
 ## Impostazioni Consigliate per dimensioni file
 Certamente una qualità audio e video ottima sarebbe sempre da preferirsi a qualità minori, tuttavia la dimensione dei file ne poterebbe risentire notevolmente, quindi in caso si pianifichi di mantenere a lungo le registrazioni che si accumulano e non avendo a disposizione uno storage infinito si consigliano impostazioni che mantengono la dimensione dei file nell'intorno dei 300-900MB per una lezione che va da una a quattro ore. 
   * Qualità video: 1920x1080 scalata a 1280x720 (calcolando comunque eventuali bande ritagliate) a 30fps, scalatura bicubica
   * Qualità audio: 44.1KHz (impostazioni di base, non hanno grande influenza sulle dimensioni, salva con 160 di bitrate normalmente)
   * Qualità file: **dimensione media**, salvata in .mkv poi convertita in .mp4 (sempre tramite OBS, vedi Conversione).
 
+![alt text](/cartellaScreen/impVid.png) 
+
+![alt text](/cartellaScreen/impUsc.png) 
 
 ## Ritagliare la parte di schermo da registrare
 Per avere un'immagine 
@@ -44,7 +51,13 @@ Per avere un'immagine
 
 
 ## Salvataggio file e conversione 
-Le impostazioni predefinite di OBS consigliano di registrare in formato .mkv (è una sorta di ......), che è però scomodo per la condivisione e la visulizzazione soprattutto da browser (formato file non supportato per visualizzazione automatica), ma è tuttavia l'unico formato che preserva il salvataggio del file in caso di crash improvvisi (a me mai accaduti, però...),  quindi una volta fatto Termina Registrazione il file viene salvato in automatico e si può convertire semplicemente andando su File -> Converti le Registrazioni, si apre una finestra, click sui tre puntini al centro (Sfoglia file), scegliete il file, fate Apri, poi Converti. 
+Le impostazioni predefinite di OBS consigliano di registrare in formato .mkv (è una sorta di ......), che è però scomodo per la condivisione e la visulizzazione soprattutto da browser (formato file non supportato per visualizzazione automatica), ma è tuttavia l'unico formato che preserva il salvataggio del file in caso di crash improvvisi (a me mai accaduti, però...),  quindi una volta fatto Termina Registrazione il file viene salvato in automatico e si può convertire semplicemente andando su File -> Converti le Registrazioni
+
+![alt text](/cartellaScreen/convReg.png) 
+
+Si apre una finestra, click sui tre puntini al centro (Sfoglia file), scegliete il file, fate Apri, poi Converti. 
+
+![alt text](/cartellaScreen/finConv.png) 
 
 Il processo dura sui 10s, potete cambiare nome e destinazione del file covertito, si consiglia di lasciare il nome dato da OBS.
 
@@ -54,7 +67,7 @@ Il processo dura sui 10s, potete cambiare nome e destinazione del file covertito
 Può ritornare utile avere degli shortcut per avviare/terminare la registrazione, mettere in pausa / riprendere, cambiare scena o mutare, senza dover aprire la finestra di OBS. Per farlo basta andare su 
 L'uso di questi shortcut funziona anche con OBS in background (non come scheda principale aperta), si consiglia comunque di evitare shortcut che possano attivare comandi anche su altri programmi aperti o shortcut di sistema (CTRL+ALT+CANC), quindi di controllare in anticipo.
 
-
+![alt text](/cartellaScreen/short.png) 
 
 ## TroubleShooting
 ### Schermo nero 
