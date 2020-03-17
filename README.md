@@ -17,7 +17,7 @@ La necessità e la convenienza delle registrazioni delle Lezioni pare indubbia, 
 
 
 # Guida 
-La guida fa riferimento alla versione più recente di Open Broadcast Software per Windows10 (v24.0.3 a marzo 2020).
+La guida fa riferimento alla versione più recente di Open Broadcast Software per Windows10 (v24.0.3 a marzo 2020)(e in minima parte nel TroubleShooting a v24.0.6 per MacOS).
 
 ### Quick Start
 + Innanzitutto scaricare il software [Open Broadcast Software dal sito](https://obsproject.com).
@@ -119,9 +119,10 @@ Se notate che un suono viene riverberato potreste avere uno o più microfoni ape
 
 
 ### Periferica Audio inesistente (MacOS)
+#### (testato su OBS v24.0.6)
 La versione per MacOS di OBS non permette da subito la registrazione audio desktop senza l'installazione di un driver apposito. Il software che sopperisce a questa mancanza è ["iShowU Audio Capture" scaricabile da qui](https://support.shinywhitebox.com/hc/en-us/articles/204161459-Installing-iShowU-Audio-Capture-Mojave-and-earlier-).
 
-Una volta scaricato seguire i passaggi (linari ma che si trovano anche sul sito di dowload) di installazione che potrebbe venire bloccata in quanto lo sviluppatore non è certificato da Apple, andare quindi su Preferenze di Sistema -> Sicurezza e Privacy e cliccare in basso su acconsenti. 
+Una volta scaricato seguire i passaggi (linari ma che si trovano anche sul sito di dowload) di installazione che potrebbe venire bloccata in quanto lo sviluppatore non è certificato da Apple, andare quindi su Preferenze di Sistema -> Sicurezza e Privacy e cliccare in basso su "acconsenti". 
 
 Finita l'installazione andare in Preferenze di Sistema -> Audio, e in "Uscita" selezionare la checkbox in basso "Mostra volume nella barra del Menù".
 
