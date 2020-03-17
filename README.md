@@ -3,12 +3,13 @@
 ### Cosa
 Git di riferimento per consigli sulla registrazione delle Lezioni Online su Teams attraverso OBS.
 
-### Perché 
-La necessità e la convenienza delle registrazioni delle Lezioni pare indubbia, soprattutto per chiunque abbia qualsivoglia difficoltà nel partecipare alle lezioni in real time. 
 
 ### Come 
-Le lezioni vengono tenute su Microsoft Teams, software che permetterebbe la registrazione delle "riunioni" (videochiamate), tuttavia l'opzione è disabilitata per gli studenti, mentre buona parte dei professori si è dimostrata contraria a diffondere _personalmente_ il contenuto delle lezioni (non tutti ad ogni modo), ma non alle registrazioni in senso generale.
+Grand parte delle Lezioni universitarie vengono tenute attraverso la piattaforma Microsoft Teams, software che permetterebbe la registrazione delle "riunioni" (videochiamate), tuttavia l'opzione è disabilitata per gli studenti; mentre buona parte dei professori si è dimostrata contraria a diffondere _personalmente_ il contenuto delle loro lezioni (non tutti ad ogni modo), molti sono favorevoli alle registrazioni in senso generale.
 
+
+### Perché 
+La necessità e la convenienza delle registrazioni delle Lezioni pare indubbia, soprattutto per chiunque abbia qualsivoglia difficoltà nel partecipare alle lezioni in real time. 
 
 
 ## Disclaimer 
@@ -69,9 +70,9 @@ Certamente una qualità audio e video ottima sarebbe sempre da preferirsi a qual
 ## Ritagliare la parte di schermo da registrare
 Per ritagliare e registrare una parte dello schermo andate sulla fonte video che volete modificare, click destro, vi comparirà un menù a tendina e selezionate Filtro.
 
-Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" e selzionare un filtro di ritaglio. Nella selezione di ritaglio (.....)
+Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" e selzionare un filtro di ritaglio. Nella selezione di ritaglio (soon...)
 
-(mancano screen)
+(screen(s) soon...)
 
 
 
@@ -92,9 +93,13 @@ Togliere la visualizzazione del mouse nella selezione della fonte di registrazio
 
 Tenere la finestra di Teams a schermo intero, se possibile, per evitare di abbassare troppo la qualità video, nonostante la scalatura bicubica risolva in parte il problema.
 
-Salvare in .mkv poi convertire in .mp4 una volta finite le registrazioni
+Salvare in .mkv poi convertire in .mp4 una volta finite le registrazioni.
 
 Cancellare i file .mkv dopo la conversione ma non prima di aver controllato che le conversioni .mp4 siano non corrotte.
+
+
+## Editing e Compressione File
+(soon...)
 
 
 
@@ -112,8 +117,12 @@ Per risolvere questo problema potrebbe essere necessario
 ### Riverbero Audio
 Se notate che un suono viene riverberato potreste avere uno o più microfoni aperti, probabilmente cuffie vicino al microfono esterno del pc, per disattivare l'audio di un'entrata potete ridurre a zero il relativo slider o disattivare direttamente cliccando sul simbolo della fonte sonora, o eliminarla. 
 
+
+### Audio desktop non funzionante (MacOS)
+(soon...)
+
+
 ## Licensing 
 Essendo questa solo una guida, non affiliata ad altri progetti, non si ritiene necessario l'uso di specifiche licenze, tuttavia si consiglia la lettura e la comprensione dei Disclaimer.
-
 
 
