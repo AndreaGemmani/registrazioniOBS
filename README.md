@@ -68,12 +68,9 @@ Certamente una qualità audio e video ottima sarebbe sempre da preferirsi a qual
 ![alt text](/cartellaScreen/impUsc.png) 
 
 ## Ritagliare la parte di schermo da registrare
-Per ritagliare e registrare una parte dello schermo andate sulla fonte video che volete modificare, click destro, vi comparirà un menù a tendina e selezionate Filtro.
+Per ritagliare e registrare una parte dello schermo selezionate la fonte video che volete modificare, click destro, vi comparirà un menù a tendina e selezionate "Filtri".
 
-Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" e selzionare un filtro di ritaglio. Nella selezione di ritaglio (soon...)
-
-(screen(s) soon...)
-
+Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" in basso a sinistra e selezionare "Ritaglia/aggiunfi una cornice". Compariranno quattro barre da cui selezionare le dimensioni del ritaglio (non relativo) o le posizioni dei lati del riquadro di ritaglio (reltivo).
 
 
 ### Creazione ShortCut
@@ -91,6 +88,8 @@ Mettere in pausa durante le pause delle lezioni piuttosto che terminare la regis
 
 Togliere la visualizzazione del mouse nella selezione della fonte di registrazione video (c'è una checkbox da tickare).
 
+Impostare un colore per la fonte video che utilizzate più spesso in caso ne abbiate più di una, per avere un feedback ottico veloce sulla scelta della fonte giusta.
+
 Tenere la finestra di Teams a schermo intero, se possibile, per evitare di abbassare troppo la qualità video, nonostante la scalatura bicubica risolva in parte il problema.
 
 Salvare in .mkv poi convertire in .mp4 una volta finite le registrazioni.
@@ -99,8 +98,13 @@ Cancellare i file .mkv dopo la conversione ma non prima di aver controllato che 
 
 
 ## Editing e Compressione File
-(soon...)
+### Editing
+Potrebbe tornare utile avere un programma per editare _velocemente e con affidabilità_ i file appena registrati. Per un editing professionale ed al contempo gratuito si suggerisce DaVinci Resolve (che tuttavia sembra presenti non pochi problemi di stabilità ultimamente, quindi questa sezione rimarrà probabilmente incompleta per un po').
+(soon...?)
 
+
+### Compressione file
+(soon...)
 
 
 
