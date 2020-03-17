@@ -25,7 +25,7 @@ La guida fa riferimento alla versione più recente di Open Broadcast Software pe
    
    ![alt text](/cartellaScreen/init.jpg) 
    
-   Se invece venisse visualizzato un riquadro nero ci si riferisca la TroubleShooting
+   Se invece venisse visualizzato un riquadro nero ci si riferisca al TroubleShooting
    
 + Al primo avvio dovrebbero già essere presenti tutte le informazioni minime necessarie alla registrazione, fra cui
   * Una Scena
