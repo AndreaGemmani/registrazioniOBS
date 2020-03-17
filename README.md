@@ -13,7 +13,7 @@ La necessità e la convenienza delle registrazioni delle Lezioni pare indubbia, 
 
 
 ## Disclaimer 
-**Questa guida vuole essere un aiuto per chiunque abbia volontà o necessità di registrare le Lezioni, non un incentivo ad un uso scorretto o illecito dei software e/o delle proprietà intellettuali del contenuto delle Lezioni. La condivisione delle registrazinoi rimanere a discapito di chi le produce e dei singoli professori oltre che alle singole Università, si consiglia quindi di accertarsi del consenso di tutte le parti in gioco prima di condividerle. Si ritiene inoltre necessario sottolineare che per Università non telematiche, la condivisione di materiale e proprietà intellettuali di proprietà delle Università _al di fuori del bacino di utenza delle singole Università (studenti, professori, tutor)_ è quasi sempre proibito.**
+**Questa guida vuole essere un aiuto per chiunque abbia volontà o necessità di registrare le Lezioni, non un incentivo ad un uso scorretto o illecito dei software e/o delle proprietà intellettuali del contenuto delle Lezioni. La condivisione delle registrazinoi rimanere a discrezione di chi le produce e dei singoli professori oltre che alle singole Università, si consiglia quindi di accertarsi del consenso di tutte le parti in gioco prima di condividerle. Si ritiene inoltre necessario sottolineare che per Università non telematiche, la condivisione di materiale e proprietà intellettuali di proprietà delle Università _al di fuori del bacino di utenza delle singole Università (studenti, professori, tutor)_ è quasi sempre proibito.**
 
 
 # Guida 
@@ -99,7 +99,7 @@ Cancellare i file .mkv dopo la conversione ma non prima di aver controllato che 
 
 ## Editing e Compressione File
 ### Editing
-Potrebbe tornare utile avere un programma per editare _velocemente e con affidabilità_ i file appena registrati. Per un editing professionale ed al contempo gratuito si suggerisce DaVinci Resolve (che tuttavia sembra presenti non pochi problemi di stabilità ultimamente, quindi questa sezione rimarrà probabilmente incompleta per un po').
+Potrebbe tornare utile avere un programma per editare _velocemente e con affidabilità_ i file appena registrati. Per un editing professionale ed al contempo gratuito si suggerisce [(Blackmagic) DaVinci Resolve](https://www.blackmagicdesign.com/it/products/davinciresolve/) (che tuttavia sembra presenti non pochi problemi di stabilità ultimamente, quindi questa sezione rimarrà probabilmente incompleta per un po').
 (soon...?)
 
 
