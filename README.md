@@ -7,7 +7,7 @@ Git di riferimento per consigli sulla registrazione delle Lezioni Online su Team
 La necessità e la convenienza delle registrazioni delle Lezioni pare indubbia, soprattutto per chiunque abbia qualsivoglia difficoltà nel partecipare alle lezioni in real time. 
 
 ### Come 
-Le lezioni vengono tenute su Microsoft Teams, software che permetterebbe la registrazione delle "riunioni" (videochiamate), tuttavia l'opzione è disabilitata per gli studenti, mentre buona parte dei professori si è dimostrata contraria a diffondere personalmente il contenuto delle lezioni (non tutti ad ogni modo), ma non alle registrazioni in senso generale.
+Le lezioni vengono tenute su Microsoft Teams, software che permetterebbe la registrazione delle "riunioni" (videochiamate), tuttavia l'opzione è disabilitata per gli studenti, mentre buona parte dei professori si è dimostrata contraria a diffondere _personalmente_ il contenuto delle lezioni (non tutti ad ogni modo), ma non alle registrazioni in senso generale.
 
 
 
@@ -33,7 +33,7 @@ La guida fa riferimento alla versione più recente di Open Broadcast Software pe
   * Una o più fonti di registrazione audio 
   * Pannello di controllo delle registrazioni
   
-![alt text](/cartellaScreen/init.jpg) 
+![alt text](/cartellaScreen/initRit.jpg) 
 
 
 
