@@ -110,8 +110,8 @@ La principale causa dello schermo nero al posto della fonte di registrazione vid
 
 Per risolvere questo problema potrebbe essere necessario
   * **Installare driver grafici** che possono essere stati cancellati ad esempio in seguito ad un backup e ripristino del pc.
-  * Agire sulle modalità di switch fra le schede grafiche per il risparmio energetico in **Impostazioni di sistema**.
-  * Agire sulle **impostazioni** della scheda grafica dedicata, problematica ricorrente per **schede NVidia**.
+  * Agire sulle modalità di switch fra le schede grafiche per il [risparmio energetico in **Impostazioni di sistema**](https://www.hi-storia.it/edu/2020/03/02/risolvere-problema-schermo-nero-obs-windows/).
+  * [Agire sulle **impostazioni** della scheda grafica dedicata](https://obsproject.com/forum/threads/black-screen-with-nvidia-dedicated-graphics-gpu.103337/), problematica ricorrente per **schede NVidia**.
 (mancano ancora link a siti e video che risolvono questi problemi)
 
 ### Riverbero Audio
