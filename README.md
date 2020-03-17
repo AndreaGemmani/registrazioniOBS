@@ -5,7 +5,7 @@ Git di riferimento per consigli sulla registrazione delle Lezioni Online su Team
 
 
 ### Come 
-Grand parte delle Lezioni universitarie vengono tenute attraverso la piattaforma Microsoft Teams, software che permetterebbe la registrazione delle "riunioni" (videochiamate), tuttavia l'opzione è disabilitata per gli studenti; mentre buona parte dei professori si è dimostrata contraria a diffondere _personalmente_ il contenuto delle loro lezioni (non tutti ad ogni modo), molti sono favorevoli alle registrazioni in senso generale.
+Gran parte delle Lezioni universitarie viene tenuta attraverso la piattaforma Microsoft Teams, software che permetterebbe la registrazione delle "riunioni" (videochiamate), tuttavia l'opzione è disabilitata per gli studenti; mentre buona parte dei professori si è dimostrata contraria a diffondere _personalmente_ il contenuto delle loro lezioni (non tutti ad ogni modo), molti sono favorevoli alle registrazioni in senso generale.
 
 
 ### Perché 
