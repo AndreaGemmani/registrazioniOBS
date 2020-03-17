@@ -42,7 +42,7 @@ Per avviare una registrazione cliccare su Avvia registrazione nella parte in bas
 
 Una volta cliccato su Termina Registrazione questa verrà salvata in automatica in una cartella predefinita (normalmente la cartella Video) che può essere cambiata nelle impostazioni, per il salvataggio non viene richiesta conferma all'utente.
 
-Si consiglia vivamente di **TOGLIERE IL PROPRIO MICROFONO dalla registrazione mutandolo** quando non li usa per fare interventi.
+Si consiglia vivamente di **TOGLIERE IL PROPRIO MICROFONO dalla registrazione mutandolo** quando non lo si usa per fare interventi.
 
 Le impostazioni predefinite di OBS consigliano di registrare in formato .mkv (è una sorta di ......), che è però scomodo per la condivisione e la visulizzazione soprattutto da browser (formato file non supportato per visualizzazione automatica), ma è tuttavia l'unico formato che preserva il salvataggio del file in caso di crash improvvisi (a me mai accaduti, però...),  quindi una volta fatto Termina Registrazione il file viene salvato in automatico e si può convertire semplicemente andando su File -> Converti le Registrazioni
 
