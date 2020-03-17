@@ -111,16 +111,29 @@ La principale causa dello schermo nero al posto della fonte di registrazione vid
 Per risolvere questo problema potrebbe essere necessario
   * **Installare driver grafici** che possono essere stati cancellati ad esempio in seguito ad un backup e ripristino del pc.
   * Agire sulle modalità di switch fra le schede grafiche per il risparmio energetico in **Impostazioni di sistema**.
-  * Agire sulle **impostazioni** della scheda grafica dedicata problematica ricorrente per **schede NVidia**.
+  * Agire sulle **impostazioni** della scheda grafica dedicata, problematica ricorrente per **schede NVidia**.
 (mancano ancora link a siti e video che risolvono questi problemi)
 
 ### Riverbero Audio
 Se notate che un suono viene riverberato potreste avere uno o più microfoni aperti, probabilmente cuffie vicino al microfono esterno del pc, per disattivare l'audio di un'entrata potete ridurre a zero il relativo slider o disattivare direttamente cliccando sul simbolo della fonte sonora, o eliminarla. 
 
 
-### Audio desktop non funzionante (MacOS)
-(soon...)
+### Periferica Audio inesistente (MacOS)
+La versione per MacOS di OBS non permette da subito la registrazione audio desktop senza l'installazione di un driver apposito. Il software che sopperisce a questa mancanza è ["iShowU Audio Capture" scaricabile da qui](https://support.shinywhitebox.com/hc/en-us/articles/204161459-Installing-iShowU-Audio-Capture-Mojave-and-earlier-).
 
+Una volta scaricato seguire i passaggi (linari ma che si trovano anche sul sito di dowload) di installazione che potrebbe venire bloccata in quanto lo sviluppatore non è certificato da Apple, andare quindi su Preferenze di Sistema -> Sicurezza e Privacy e cliccare in basso su acconsenti. 
+
+Finita l'installazione andare in Preferenze di Sistema -> Audio, e in "Uscita" selezionare la checkbox in basso "Mostra volume nella barra del Menù".
+
+Cercare da Spotlight (cmd+SPACE) "Configuratore MIDI Audio" ed aprirlo; sulla sinistra avrete diversi canali fra cui iShowU Audio Capture, ma dovrete crearne un altro. Cliccate sul tasto "+" in basso e su "Crea dispositivo con uscite multiple", rinominatelo "OBS" cliccando sul nome (facoltativo ma utile per distinguerla facilmente), e selezionate **entrambe** le sucite audio: iShowU e Uscita Integrata.
+
+Ora potrete scegliere quale uscita audio utilizzare, in due modi: 
+   * Da Preferenze di Sistema -> Suono selezionare OBS (o l'altro nomoe lungo se non l'avete rinominata OBS) 
+   * Dalla barra in alto del Mac cliccando sull'icona del suono dovrebbe comparire una tendina da cui selezionare OBS (o l'altro nomoe lungo se non l'avete rinominata OBS).
+   
+**Attenzione:** dall'uscita mixata non si può regolare più l'audio perché e una sorta di periferica virtuale!
+
+Ora aprendo OBS potrete aggiungere l'uscita audio e tenendo l'uscita audio del Mac su "OBS" (o l'altro nomoe lungo se non l'avete rinominata OBS) potrete registrare l'audio desktop.
 
 ## Licensing 
 Essendo questa solo una guida, non affiliata ad altri progetti, non si ritiene necessario l'uso di specifiche licenze, tuttavia si consiglia la lettura e la comprensione dei Disclaimer.
