@@ -1,11 +1,11 @@
 # registrazioniOBS
 
 ### Cosa
-Git di riferimento per consigli sulla registrazione delle Lezioni Online su Teams attraverso OBS.
+Git di riferimento per consigli sulla registrazione delle Lezioni Online tenute su Microsoft Teams, attraverso OBS.
 
 
 ### Come 
-Gran parte delle Lezioni universitarie viene tenuta attraverso la piattaforma Microsoft Teams, software che permetterebbe la registrazione delle "riunioni" (videochiamate), tuttavia l'opzione è disabilitata per gli studenti; mentre buona parte dei professori si è dimostrata contraria a diffondere _personalmente_ il contenuto delle loro lezioni (non tutti ad ogni modo), molti sono favorevoli alle registrazioni in senso generale.
+Gran parte delle Lezioni universitarie viene tenuta attraverso la piattaforma [Microsoft Teams](https://products.office.com/it-it/microsoft-teams/group-chat-software), software che permetterebbe la registrazione delle "riunioni" (videochiamate), tuttavia l'opzione è disabilitata per gli studenti; mentre buona parte dei professori si è dimostrata contraria a diffondere _personalmente_ il contenuto delle loro lezioni (non tutti ad ogni modo), molti sono favorevoli alle registrazioni in senso generale.
 
 
 ### Perché 
