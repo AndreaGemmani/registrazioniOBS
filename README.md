@@ -72,7 +72,7 @@ Certamente una qualità audio e video ottima sarebbe sempre da preferirsi a qual
 ## Ritagliare la parte di schermo da registrare
 Per ritagliare e registrare una parte dello schermo selezionate la fonte video che volete modificare, click destro, vi comparirà un menù a tendina e selezionate "Filtri".
 
-Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" in basso a sinistra e selezionare "Ritaglia/aggiunfi una cornice". Compariranno quattro barre da cui selezionare le dimensioni del ritaglio (non relativo) o le posizioni dei lati del riquadro di ritaglio (reltivo).
+Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" in basso a sinistra e selezionare "Ritaglia/aggiungi una cornice". Compariranno quattro barre da cui selezionare le dimensioni del ritaglio (non relativo) o le posizioni dei lati del riquadro di ritaglio (relativo).
 
 
 ### Creazione ShortCut
