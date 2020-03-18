@@ -11,11 +11,11 @@ Gran parte delle Lezioni universitarie viene tenuta attraverso la piattaforma [M
 ### Perché 
 La necessità e la convenienza delle registrazioni delle Lezioni pare indubbia, soprattutto per chiunque abbia qualsivoglia difficoltà nel partecipare alle lezioni in real time. 
 
-La scelta di utilizzare OBS per le registrazioni deriva dalla sua praticità e versatilità, che permette la scelta di un ottima via di mezzo fra peso delle registrazioni e qualità.  
+La scelta di utilizzare OBS per le registrazioni deriva dalla sua praticità e versatilità, che permette la scelta di un ottimo trade-off fra peso delle registrazioni e qualità (senza dover spendere tempo per la compressione dei dati).
 
 
 ## Disclaimer 
-**Questa guida vuole essere un aiuto per chiunque abbia volontà o necessità di registrare le Lezioni, non un incentivo ad un uso scorretto o illecito dei software e/o delle proprietà intellettuali del contenuto delle Lezioni. La condivisione delle registrazinoi rimanere a discrezione di chi le produce e dei singoli professori oltre che alle singole Università, si consiglia quindi di accertarsi del consenso di tutte le parti in gioco prima di condividerle. Si ritiene inoltre necessario sottolineare che per Università non telematiche, la condivisione di materiale e proprietà intellettuali di proprietà delle Università _al di fuori del bacino di utenza delle singole Università (studenti, professori, tutor)_ è quasi sempre proibito.**
+**Questa guida vuole essere un aiuto per chiunque abbia volontà o necessità di registrare le Lezioni, non un incentivo ad un uso scorretto o illecito dei software e/o delle proprietà intellettuali del contenuto delle Lezioni. La condivisione delle registrazini rimane a discrezione di chi le produce e dei singoli professori oltre che alle singole Università, si consiglia quindi di accertarsi del consenso di tutte le parti in gioco prima di condividerle. Si ritiene inoltre necessario sottolineare che per Università non telematiche, la condivisione di materiale e proprietà intellettuali di proprietà delle Università _al di fuori del bacino di utenza delle singole Università (studenti, professori, tutor)_ è quasi sempre proibito.**
 
 
 # Guida 
@@ -43,11 +43,11 @@ La guida fa riferimento alla versione più recente di Open Broadcast Software pe
 ## Salvataggio registrazioni e conversione 
 Per avviare una registrazione cliccare su Avvia registrazione nella parte in basso a destra della schermata di OBS o tramite shortcut (vedi più avanti). Una volta premuto la registrazione è in corso e il bottone diventerà Termina Registrazione. 
 
-Una volta cliccato su Termina Registrazione questa verrà salvata in automatica in una cartella predefinita (normalmente la cartella Video) che può essere cambiata nelle impostazioni, per il salvataggio non viene richiesta conferma all'utente.
+Una volta cliccato su Termina Registrazione questa verrà salvata automaticamente in una cartella predefinita (normalmente la cartella Video) che può essere cambiata nelle impostazioni, per il salvataggio non viene richiesta conferma all'utente.
 
 Si consiglia vivamente di **TOGLIERE IL PROPRIO MICROFONO dalla registrazione mutandolo** quando non lo si usa per fare interventi.
 
-Le impostazioni predefinite di OBS consigliano di registrare in formato .mkv (è una sorta di ......), che è però scomodo per la condivisione e la visulizzazione soprattutto da browser (formato file non supportato per visualizzazione automatica), ma è tuttavia l'unico formato che preserva il salvataggio del file in caso di crash improvvisi (a me mai accaduti, però...),  quindi una volta fatto Termina Registrazione il file viene salvato in automatico e si può convertire semplicemente andando su File -> Converti le Registrazioni
+Le impostazioni predefinite di OBS consigliano di registrare in formato .mkv (è una sorta di (soon...)), che è però scomodo per la condivisione e la visulizzazione soprattutto da browser (formato file non supportato per visualizzazione automatica), ma è tuttavia l'unico formato che preserva il salvataggio del file in caso di crash improvvisi (a me mai accaduti, però...),  quindi una volta fatto Termina Registrazione il file viene salvato in automatico e si può convertire semplicemente andando su File -> Converti le Registrazioni
 
 ![alt text](/cartellaScreen/convReg.png) 
 
@@ -76,7 +76,8 @@ Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte vi
 
 
 ### Creazione ShortCut
-Può ritornare utile avere degli shortcut per avviare/terminare la registrazione, mettere in pausa / riprendere, cambiare scena o mutare, senza dover aprire la finestra di OBS. Per farlo basta andare su 
+Può ritornare utile avere degli shortcut per avviare/terminare la registrazione, mettere in pausa / riprendere, cambiare scena o mutare, senza dover aprire la finestra di OBS. Per farlo basta andare su Impostazioni -> Scorciatoie e selezionare la barra per il comando di cui si vuole creare lo shortcut, poi tenere premuti contemporaneamente tutti i tasti scelti, che verranno visualizzati nella barra. 
+
 L'uso di questi shortcut funziona anche con OBS in background (non come scheda principale aperta), si consiglia comunque di evitare shortcut che possano attivare comandi anche su altri programmi aperti o shortcut di sistema (CTRL+ALT+CANC), quindi di controllare in anticipo.
 
 ![alt text](/cartellaScreen/short.png) 
@@ -90,7 +91,7 @@ Mettere in pausa durante le pause delle lezioni piuttosto che terminare la regis
 
 Togliere la visualizzazione del mouse nella selezione della fonte di registrazione video (c'è una checkbox da tickare).
 
-Impostare un colore per la fonte video che utilizzate più spesso in caso ne abbiate più di una, per avere un feedback ottico veloce sulla scelta della fonte giusta.
+Impostare un colore per la fonte video che utilizzate più spesso in caso ne abbiate più di una, per avere un feedback ottico veloce sulla scelta della fonte giusta, andando sulla fonte video e facendo click destro su di essa, poi "Imposta un colore".
 
 Tenere la finestra di Teams a schermo intero, se possibile, per evitare di abbassare troppo la qualità video, nonostante la scalatura bicubica risolva in parte il problema.
 
@@ -101,11 +102,12 @@ Cancellare i file .mkv dopo la conversione ma non prima di aver controllato che 
 
 ## Editing e Compressione File
 ### Editing
-Potrebbe tornare utile avere un programma per editare _velocemente e con affidabilità_ i file appena registrati. Per un editing professionale ed al contempo gratuito si suggerisce [(Blackmagic) DaVinci Resolve](https://www.blackmagicdesign.com/it/products/davinciresolve/) (che tuttavia sembra presenti non pochi problemi di stabilità ultimamente, quindi questa sezione rimarrà probabilmente incompleta per un po').
+Potrebbe tornare utile avere un programma per editare _velocemente e con affidabilità_ i file appena registrati. Per un editing professionale ed al contempo gratuito si suggerisce [(Blackmagic) DaVinci Resolve](https://www.blackmagicdesign.com/it/products/davinciresolve/) (che tuttavia **sembra presenti non pochi problemi di stabilità** ultimamente, quindi questa sezione rimarrà probabilmente incompleta per un po').
 (soon...?)
 
 
 ### Compressione file
+Esistono vari metodi per diminuire il peso dei file registrati, fra cui l'uso del sopra citato DaVinci Resolve per agire sulla qualità video e audio spesso fin troppo alta se non impostata come suggerito e successiva esportazione del nuovo video più leggero (~~se solo DaVinci Resolve smettesse di crashare~~), oppure metodi di compressione fra cui la trasformazione in .m4v o .zip / .7z / .rar.
 (soon...)
 
 
@@ -128,19 +130,19 @@ Se notate che un suono viene riverberato potreste avere uno o più microfoni ape
 #### (testato su OBS v24.0.6)
 La versione per MacOS di OBS non permette da subito la registrazione audio desktop senza l'installazione di un driver apposito. Il software che sopperisce a questa mancanza è ["iShowU Audio Capture" scaricabile da qui](https://support.shinywhitebox.com/hc/en-us/articles/204161459-Installing-iShowU-Audio-Capture-Mojave-and-earlier-).
 
-Una volta scaricato seguire i passaggi (linari ma che si trovano anche sul sito di dowload) di installazione che potrebbe venire bloccata in quanto lo sviluppatore non è certificato da Apple, andare quindi su Preferenze di Sistema -> Sicurezza e Privacy e cliccare in basso su "acconsenti". 
+Una volta scaricato seguire i passaggi (lineari ma che si trovano anche sul sito di dowload) di installazione che potrebbe venire bloccata in quanto lo sviluppatore non è certificato da Apple, andare quindi su Preferenze di Sistema -> Sicurezza e Privacy e cliccare in basso su "acconsenti". 
 
 Finita l'installazione andare in Preferenze di Sistema -> Audio, e in "Uscita" selezionare la checkbox in basso "Mostra volume nella barra del Menù".
 
 Cercare da Spotlight (cmd+SPACE) "Configuratore MIDI Audio" ed aprirlo; sulla sinistra avrete diversi canali fra cui iShowU Audio Capture, ma dovrete crearne un altro. Cliccate sul tasto "+" in basso e su "Crea dispositivo con uscite multiple", rinominatelo "OBS" cliccando sul nome (facoltativo ma utile per distinguerla facilmente), e selezionate **entrambe** le sucite audio: iShowU e Uscita Integrata.
 
 Ora potrete scegliere quale uscita audio utilizzare, in due modi: 
-   * Da Preferenze di Sistema -> Suono selezionare OBS (o l'altro nomoe lungo se non l'avete rinominata OBS) 
-   * Dalla barra in alto del Mac cliccando sull'icona del suono dovrebbe comparire una tendina da cui selezionare OBS (o l'altro nomoe lungo se non l'avete rinominata OBS).
+   * Da Preferenze di Sistema -> Suono selezionare OBS (o l'altro nome lungo se non l'avete rinominata OBS) 
+   * Dalla barra in alto del Mac cliccando sull'icona del suono dovrebbe comparire una tendina da cui selezionare OBS (o l'altro nome lungo se non l'avete rinominata OBS).
    
 **Attenzione:** dall'uscita mixata non si può regolare più l'audio perché e una sorta di periferica virtuale!
 
-Ora aprendo OBS potrete aggiungere l'uscita audio e tenendo l'uscita audio del Mac su "OBS" (o l'altro nomoe lungo se non l'avete rinominata OBS) potrete registrare l'audio desktop.
+Ora aprendo OBS potrete aggiungere l'uscita audio e tenendo l'uscita audio del Mac su "OBS" (o l'altro nome lungo se non l'avete rinominata OBS) potrete registrare l'audio desktop.
 
 ## Licensing 
 Essendo questa solo una guida, non affiliata ad altri progetti, non si ritiene necessario l'uso di specifiche licenze, tuttavia si consiglia la lettura e la comprensione dei Disclaimer.
