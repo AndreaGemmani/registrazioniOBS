@@ -11,6 +11,8 @@ Gran parte delle Lezioni universitarie viene tenuta attraverso la piattaforma [M
 ### Perché 
 La necessità e la convenienza delle registrazioni delle Lezioni pare indubbia, soprattutto per chiunque abbia qualsivoglia difficoltà nel partecipare alle lezioni in real time. 
 
+La scelta di utilizzare OBS per le registrazioni deriva dalla sua praticità e versatilità, che permette la scelta di un ottima via di mezzo fra peso delle registrazioni e qualità.  
+
 
 ## Disclaimer 
 **Questa guida vuole essere un aiuto per chiunque abbia volontà o necessità di registrare le Lezioni, non un incentivo ad un uso scorretto o illecito dei software e/o delle proprietà intellettuali del contenuto delle Lezioni. La condivisione delle registrazinoi rimanere a discrezione di chi le produce e dei singoli professori oltre che alle singole Università, si consiglia quindi di accertarsi del consenso di tutte le parti in gioco prima di condividerle. Si ritiene inoltre necessario sottolineare che per Università non telematiche, la condivisione di materiale e proprietà intellettuali di proprietà delle Università _al di fuori del bacino di utenza delle singole Università (studenti, professori, tutor)_ è quasi sempre proibito.**
