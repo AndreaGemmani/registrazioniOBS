@@ -74,6 +74,15 @@ Per ritagliare e registrare una parte dello schermo selezionate la fonte video c
 
 Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" in basso a sinistra e selezionare "Ritaglia/aggiungi una cornice". Compariranno quattro barre da cui selezionare le dimensioni del ritaglio (non relativo) o le posizioni dei lati del riquadro di ritaglio (relativo).
 
+## Riduzione del rumore
+Per ridurre il rumore di fondo può essere aggiunto un filtro audio sulla fonte desiderata.
+
+Si consiglia di creare una nuova fonte audio all'interno della Scena usando il tasto "+" nella sezione Fonte e scegliere "Cattura l'audio in uscita", una volta scelto il nome verrà creata una nuova fonte audio visibile sulla destra.
+
+Cliccare sull'ingranaggio a fianco dello slider dalla fonte audio scelta, comparirà un menù, cliccare su "Filtri", si aprirà una finestra che permette di getire i filtri.
+
+Cliccare ora sul "+" in basso a sinistra in questa finestra e poi su "Riduzione del rumore", verrà creato un filtro con uno slider che permette di scegliere i decibel sonori di riduzione del rumore. 
+
 
 ### Creazione ShortCut
 Può ritornare utile avere degli shortcut per avviare/terminare la registrazione, mettere in pausa / riprendere, cambiare scena o mutare, senza dover aprire la finestra di OBS. Per farlo basta andare su Impostazioni -> Scorciatoie e selezionare la barra per il comando di cui si vuole creare lo shortcut, poi tenere premuti contemporaneamente tutti i tasti scelti, che verranno visualizzati nella barra. 
@@ -100,19 +109,23 @@ Salvare in .mkv poi convertire in .mp4 una volta finite le registrazioni.
 Cancellare i file .mkv dopo la conversione ma non prima di aver controllato che le conversioni .mp4 siano non corrotte.
 
 
-## Editing e Compressione File
-### Editing
+# Editing e Compressione File
+## Editing
 Potrebbe tornare utile avere un programma per editare _velocemente e con affidabilità_ i file appena registrati. Per un editing professionale ed al contempo gratuito si suggerisce [(Blackmagic) DaVinci Resolve](https://www.blackmagicdesign.com/it/products/davinciresolve/) (che tuttavia **sembra presenti non pochi problemi di stabilità** ultimamente, quindi questa sezione rimarrà probabilmente incompleta per un po').
+
 (soon...?)
 
+### Ritaglio 
+Per ritagliare l'inizio e/o la fine di una registrazione esiste un metodo semplice su Windows10 che consente di non scaricare altri programmi: una volta convertita la registrazione in .mp4 selezionare il file e con il click selezionare "Apri con..." e selezionare il programma "Foto". Il file verrà aperto in Foto e dal menù in alto selezionare "Ritaglio".
 
-### Compressione file
+
+## Compressione file
 Esistono vari metodi per diminuire il peso dei file registrati, fra cui l'uso del sopra citato DaVinci Resolve per agire sulla qualità video e audio spesso fin troppo alta se non impostata come suggerito e successiva esportazione del nuovo video più leggero (~~se solo DaVinci Resolve smettesse di crashare~~), oppure metodi di compressione fra cui la trasformazione in .m4v o .zip / .7z / .rar.
 (soon...)
 
 
 
-## TroubleShooting
+# TroubleShooting
 ### Schermo nero 
 La principale causa dello schermo nero al posto della fonte di registrazione video è la gestione non adeguata delle molteplici fonti video causata ad esempio dalla compresenza di una scheda Grafica Integrata e di una dedicata (molto frequente nei pc). 
 
@@ -148,3 +161,5 @@ Ora aprendo OBS potrete aggiungere l'uscita audio e tenendo l'uscita audio del M
 Essendo questa solo una guida, non affiliata ad altri progetti, non si ritiene necessario l'uso di specifiche licenze, tuttavia si consiglia la lettura e la comprensione dei Disclaimer.
 
 
+## Collaboratori
+Si ringraziano (...)
