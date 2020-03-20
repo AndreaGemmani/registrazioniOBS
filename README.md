@@ -1,5 +1,15 @@
 # registrazioniOBS
 
+### Indice
+**[Cosa, Come, Perché](#cosa)**<br>
+**[Disclaimer](#disclaimer)**<br>
+**[Guida](#guida)**<br>
+**[Impostazioni Consigliate](#impostazioni-consigliate-per-dimensioni-file)**<br>
+**[TroubleShooting](#troubleshooting)**<br>
+**[Licensing](#licensing)**<br>
+**[Collaboratori](#collaboratori)**<br>
+
+
 ### Cosa
 Git di riferimento per consigli sulla registrazione delle Lezioni Online tenute su Microsoft Teams, attraverso OBS.
 
