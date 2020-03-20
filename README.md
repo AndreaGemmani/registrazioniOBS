@@ -4,6 +4,8 @@
 **[Cosa, Come, Perché](#cosa)**<br>
 **[Disclaimer](#disclaimer)**<br>
 **[Guida](#guida)**<br>
+**[Consigli](#consigli-vari)**<br>
+**[Editing e Compressione file](#editing-e-compressione-file)**<br>
 **[Impostazioni Consigliate](#impostazioni-consigliate-per-dimensioni-file)**<br>
 **[TroubleShooting](#troubleshooting)**<br>
 **[Licensing](#licensing)**<br>
