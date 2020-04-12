@@ -10,6 +10,7 @@
 **[TroubleShooting](#troubleshooting)**<br>
 **[Licensing](#licensing)**<br>
 **[Collaboratori](#collaboratori)**<br>
+**[NEWS (UniBo)](#news-unibo)**<br>
 
 
 ### Cosa
@@ -213,6 +214,14 @@ Ora potrete scegliere quale uscita audio utilizzare, in due modi:
 **Attenzione:** dall'uscita mixata non si può regolare più l'audio perché e una sorta di periferica virtuale!
 
 Ora aprendo OBS potrete aggiungere l'uscita audio e tenendo l'uscita audio del Mac su "OBS" (o l'altro nome lungo se non l'avete rinominata OBS) potrete registrare l'audio desktop.
+
+
+## News UniBo
+
+Dal 7 Aprile 2020 (circa) UniBo ha deliberato per dare la possibilita ai professori di registare le lezioni tramite lo strumento apposito di Microsoft Teams, per poi pubblicare le registrazioni in privato con i propri studenti. Il canale più utilizzato al momento per condividere queste registrazioni è la chat delle riunioni stesse su Teams o in alternativa il software Microsoft Stream, una sorta di hub di condivisione video. 
+
+Si ringrazia di cuore UniBo ed il Magnifico Rettore per la delibera.
+
 
 ## Licensing 
 Essendo questa solo una guida, non affiliata ad altri progetti, non si ritiene necessario l'uso di specifiche licenze, tuttavia si consiglia la lettura e la comprensione dei Disclaimer.
