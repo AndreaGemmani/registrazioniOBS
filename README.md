@@ -125,14 +125,13 @@ Cancellare i file .mkv dopo la conversione ma non prima di aver controllato che 
 ## Editing
 Potrebbe tornare utile avere un programma per editare _velocemente e con affidabilità_ i file appena registrati. Per un editing professionale ed al contempo gratuito si suggerisce [(Blackmagic) DaVinci Resolve](https://www.blackmagicdesign.com/it/products/davinciresolve/) (che tuttavia **sembra presenti non pochi problemi di stabilità** ultimamente, quindi questa sezione rimarrà probabilmente incompleta per un po').
 
-(soon...?)
 
 ### Ritaglio 
 Per ritagliare l'inizio e/o la fine di una registrazione esiste un metodo semplice su Windows10 che consente di non scaricare altri programmi: una volta convertita la registrazione in .mp4 selezionare il file e con il click selezionare "Apri con..." e selezionare il programma "Foto". Il file verrà aperto in Foto e dal menù in alto selezionare "Ritaglio".
 
 
 ## Compressione file
-Esistono vari metodi per diminuire il peso dei file registrati, fra cui l'uso del sopra citato DaVinci Resolve per agire sulla qualità video e audio spesso fin troppo alta se non impostata come suggerito e successiva esportazione del nuovo video più leggero (~~se solo DaVinci Resolve smettesse di crashare~~), oppure metodi di compressione fra cui la trasformazione in .m4v o .zip / .7z / .rar.
+Esistono vari metodi per diminuire il peso dei file registrati in caso si fossero utilizzati metodi registrazione diversi da OBS e se si cercasse una riduzione di dimensioni ancora maggiore, fra cui l'uso del sopra citato DaVinci Resolve per agire sulla qualità video e audio spesso fin troppo alta se non impostata come suggerito e successiva esportazione del nuovo video più leggero (~~se solo DaVinci Resolve smettesse di crashare~~), oppure metodi di compressione fra cui la trasformazione in .m4v o .zip / .7z / .rar.
 
 Un softwer molto utile per la compressione dei video è [HandBrake](https://handbrake.fr/downloads.php), software open source e disponibile per Windows, Linux e macOS.
 
@@ -166,14 +165,20 @@ Di seguito vengono riportati un paio di test effettuati su un video di 1,08 GB i
 
   * Compressione del _88.55%_ con qualita video apprezzabile.
     **encode preset -> "_ultrafast_"**
+    
     constant quality -> _22_
+    
     **tempo impiegato -> _12 minuti_**
+    
     **dimensione finale -> _126 MB_**
 
   * Compressione del _91.31%_.
     **encode preset -> "_very slow_"**
+    
     constant quality -> _22_
+    
     **tempo impiegato -> _35 minuti_**
+    
     **dimensione finale -> _96,1 MB_**
 
 
