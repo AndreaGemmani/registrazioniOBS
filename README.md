@@ -134,13 +134,9 @@ Per ritagliare l'inizio e/o la fine di una registrazione esiste un metodo sempli
 ## Compressione file
 Esistono vari metodi per diminuire il peso dei file registrati, fra cui l'uso del sopra citato DaVinci Resolve per agire sulla qualità video e audio spesso fin troppo alta se non impostata come suggerito e successiva esportazione del nuovo video più leggero (~~se solo DaVinci Resolve smettesse di crashare~~), oppure metodi di compressione fra cui la trasformazione in .m4v o .zip / .7z / .rar.
 
-(soon...)
+Un softwer molto utile per la compressione dei video è [HandBrake](https://handbrake.fr/downloads.php), software open source e disponibile per Windows, Linux e macOS.
 
-Un altro softwer che può essere utilizzato per la compressione dei video è [HandBrake](https://handbrake.fr/downloads.php).
-
-Questo software è open source e disponibile per Windows, Linux e macOS.
-
-### HandBrake     (parte in costruzione...)
+### HandBrake
 La finestra principale del programma si presenta così.
 
 ![alt text](/cartellaScreen/Immagine1.png) 
@@ -149,42 +145,36 @@ La scelta del file da convertire può avvenire nelle seguenti maniere:
   * drag and drop, cioè selezionando un file con il mouse e trascinandolo nell'area grigiastra della finestra.
   * scegliendo una cartella o un file dalla sezione "Source Selection".
 
-Una volta scelto il file da convertire la finesra aparirà così.
+Una volta scelto il file da convertire comparirà la seguente finestra:
 
 ![alt text](/cartellaScreen/Immagine2.png)
 
 Ci sono molti parametri che possono essere settati nella conversione. Di seguito verranno analizzati quelli più importanti:
+  
   * _Quality_ permette di regolare la qualita del video, i valori che si possono impostare variano da _0_ (la qualità del video rimane invariata) a _51_ (grande deperimento della qualità video) con valori raccomandati compresi fra _20_ e _22_.
   
   * _Optimise Video_ permette di regolare la velocità di codifica del video (più è lento meno spazio occuperà il video) i valori variano da _Ultrafast_ (codifica molto veloce) a _Placebo_ (codifica molto lenta) con valore raccomandato _Fast_.
   
   * _Audio Track Bitrate_ permette di modificare il bitrate audio, i valori vanno da _64_ (decente) a _512_ (qualità molto buona) con valore raccomandato _160_.
 
-Di seguito vengono riportati gli screenshot.
-
 ![alt text](/cartellaScreen/Immagine3.png)
 
 ![alt text](/cartellaScreen/Immagine4.png)
 
-#### Vantaggi
-Di seguito vengono riportati alcuni test effettuati su un video di dimensione 1,08 GB (1.160.864.012 byte) in formato _mkv_  per far vedere quanto fosse effettivamente conveiente eseguire la compressioen dei video:
+#### Test compressione Handbrake
+Di seguito vengono riportati un paio di test effettuati su un video di 1,08 GB in formato _mkv_  per mostrare le differenze fra le impostazioni di compressione video:
 
   * Compressione del _88.55%_ con qualita video apprezzabile.
-    encode preset -> "_ultrafast_"
+    **encode preset -> "_ultrafast_"**
     constant quality -> _22_
-    tempo impiegato -> _12 minuti_
-    dimensione finale -> _126 MB (132.803.051 byte)_
-    
-![alt text](/cartellaScreen/Immagine5.png)
+    **tempo impiegato -> _12 minuti_**
+    **dimensione finale -> _126 MB_**
 
   * Compressione del _91.31%_.
-    encode preset -> "_very slow_"
+    **encode preset -> "_very slow_"**
     constant quality -> _22_
-    tempo impiegato -> _35 minuti_
-    dimensione finale -> _96,1 MB (100.872.365 byte)_
-
-![alt text](/cartellaScreen/Immagine6.png)
-
+    **tempo impiegato -> _35 minuti_**
+    **dimensione finale -> _96,1 MB_**
 
 
 # TroubleShooting
