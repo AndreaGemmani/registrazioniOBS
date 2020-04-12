@@ -8,9 +8,9 @@
 **[Editing e Compressione file](#editing-e-compressione-file)**<br>
 **[Impostazioni Consigliate](#impostazioni-consigliate-per-dimensioni-file)**<br>
 **[TroubleShooting](#troubleshooting)**<br>
+**[NEWS (UniBo)](#news-unibo)**<br>
 **[Licensing](#licensing)**<br>
 **[Collaboratori](#collaboratori)**<br>
-**[NEWS (UniBo)](#news-unibo)**<br>
 
 
 ### Cosa
@@ -224,10 +224,12 @@ Si ringrazia di cuore UniBo ed il Magnifico Rettore per la delibera.
 
 
 ## Licensing 
+
 Essendo questa solo una guida, non affiliata ad altri progetti, non si ritiene necessario l'uso di specifiche licenze, tuttavia si consiglia la lettura e la comprensione dei Disclaimer.
 
 
 ## Collaboratori
+
 Si ringraziano 
 
 Massimo Modesti per la parte di Troubleshooting relativa all'audio su MacOS 
@@ -238,4 +240,5 @@ Luca Sammarini per varie correzioni e suggerimenti.
 
 I professori che si sono dimostrati disponibili alla libera fruizione delle registrazioni da parte dei loro studenti.
 
+Un ulteriore ringraziamento al Magnifico Rettore di UniBo per la delibera ai professori di poter registrare attraverso Teams.
 
