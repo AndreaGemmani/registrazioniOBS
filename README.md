@@ -4,6 +4,7 @@
 **[Cosa, Come, Perché](#cosa)**<br>
 **[Disclaimer](#disclaimer)**<br>
 **[Guida](#guida)**<br>
+**[_(new)_ Registare solo una finestra](#registrare-solo-una-finestra)**<br>
 **[Consigli](#consigli-vari)**<br>
 **[Editing e Compressione file](#editing-e-compressione-file)**<br>
 **[Impostazioni Consigliate](#impostazioni-consigliate-per-dimensioni-file)**<br>
@@ -34,7 +35,7 @@ La scelta di utilizzare OBS per le registrazioni deriva dalla sua praticità e v
 # Guida 
 La guida fa riferimento alla versione più recente di Open Broadcast Software per Windows10 (v24.0.3 a marzo 2020)(e in minima parte nel TroubleShooting a v24.0.6 per MacOS).
 
-### Quick Start
+## Quick Start
 + Innanzitutto scaricare il software [Open Broadcast Software dal sito](https://obsproject.com).
 
    Una volta scaricato ed installato, aprendo il software viene visualizzata una finestra simile alla seguente
@@ -50,6 +51,37 @@ La guida fa riferimento alla versione più recente di Open Broadcast Software pe
   * Pannello di controllo delle registrazioni
   
 ![alt text](/cartellaScreen/initRit.jpg) 
+
+
+## Ritagliare la parte di schermo da registrare
+
+Per ritagliare e registrare una parte dello schermo selezionate la fonte video che volete modificare, click destro, vi comparirà un menù a tendina e selezionate "Filtri".
+
+Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" in basso a sinistra e selezionare "Ritaglia/aggiungi una cornice". Compariranno quattro barre da cui selezionare le dimensioni del ritaglio (non relativo) o le posizioni dei lati del riquadro di ritaglio (relativo).
+
+
+## Registrare solo una finestra
+
+Per registrare solo la finestra di Teams, permettendovi quindi di compiere altre azioni su altre finestre per voi aperte davanti a quella di Teams, ma senza registrare cosa avviene su queste altre, aprire OBS e Teams.
+
+Una volta aperti entrambi creare una nuova scena su OBS e creare una nuova cattura scegliendo "Cattura la Finestra" nella parte di interfaccia dedicata all'aggiunta di Fonti. 
+
+Una volta scelto un nome vi si aprirà una finestra nella quale vi verranno suggerite varie finestre fra cui scegliere, una delle quali è quella di Teams con la nomenclatura della chat (/riunione) che avete aperta nella finestra di Teams (se siete loggati). Si consiglia di avere il minor numero possibile di altre finestre aperte mentre si esegue questo passaggio per evitare che l'elenco fra cui scegliere sia lungo e forviante. 
+
+Lasciare il metodo di acquisizione automatico e si consiglia in "Tipo di ricerca della finestra" di selezionare "Il titolo deve corrispondere, altrimenti cercare una finestra dello stesso tipo", questo perché il titolo della finestra poterbbe cambiare in base alla riunione che avete aperto su Teams.
+
+Nota: sembra che con questa impostazione non si possa scegliere l'opzione di eliminare il proprio mouse dalle registrazione.
+
+
+## Riduzione del rumore
+
+Per ridurre il rumore di fondo può essere aggiunto un filtro audio sulla fonte desiderata.
+
+Si consiglia di creare una nuova fonte audio all'interno della Scena usando il tasto "+" nella sezione Fonte e scegliere "Cattura l'audio in uscita", una volta scelto il nome verrà creata una nuova fonte audio visibile sulla destra.
+
+Cliccare sull'ingranaggio a fianco dello slider dalla fonte audio scelta, comparirà un menù, cliccare su "Filtri", si aprirà una finestra che permette di getire i filtri.
+
+Cliccare ora sul "+" in basso a sinistra in questa finestra e poi su "Riduzione del rumore", verrà creato un filtro con uno slider che permette di scegliere i decibel sonori di riduzione del rumore. 
 
 
 
@@ -82,22 +114,8 @@ Certamente una qualità audio e video ottima sarebbe sempre da preferirsi a qual
 
 ![alt text](/cartellaScreen/impUsc.png) 
 
-## Ritagliare la parte di schermo da registrare
-Per ritagliare e registrare una parte dello schermo selezionate la fonte video che volete modificare, click destro, vi comparirà un menù a tendina e selezionate "Filtri".
 
-Vi si aprirà una finestra da cui potete gestire i filtri attivi per la fonte video, aggiungerne quindi uno con il tasto "+" in basso a sinistra e selezionare "Ritaglia/aggiungi una cornice". Compariranno quattro barre da cui selezionare le dimensioni del ritaglio (non relativo) o le posizioni dei lati del riquadro di ritaglio (relativo).
-
-## Riduzione del rumore
-Per ridurre il rumore di fondo può essere aggiunto un filtro audio sulla fonte desiderata.
-
-Si consiglia di creare una nuova fonte audio all'interno della Scena usando il tasto "+" nella sezione Fonte e scegliere "Cattura l'audio in uscita", una volta scelto il nome verrà creata una nuova fonte audio visibile sulla destra.
-
-Cliccare sull'ingranaggio a fianco dello slider dalla fonte audio scelta, comparirà un menù, cliccare su "Filtri", si aprirà una finestra che permette di getire i filtri.
-
-Cliccare ora sul "+" in basso a sinistra in questa finestra e poi su "Riduzione del rumore", verrà creato un filtro con uno slider che permette di scegliere i decibel sonori di riduzione del rumore. 
-
-
-### Creazione ShortCut
+## Creazione ShortCut
 Può ritornare utile avere degli shortcut per avviare/terminare la registrazione, mettere in pausa / riprendere, cambiare scena o mutare, senza dover aprire la finestra di OBS. Per farlo basta andare su Impostazioni -> Scorciatoie e selezionare la barra per il comando di cui si vuole creare lo shortcut, poi tenere premuti contemporaneamente tutti i tasti scelti, che verranno visualizzati nella barra. 
 
 L'uso di questi shortcut funziona anche con OBS in background (non come scheda principale aperta), si consiglia comunque di evitare shortcut che possano attivare comandi anche su altri programmi aperti o shortcut di sistema (CTRL+ALT+CANC), quindi di controllare in anticipo.
@@ -111,13 +129,13 @@ L'uso di questi shortcut funziona anche con OBS in background (non come scheda p
 
 Mettere in pausa durante le pause delle lezioni piuttosto che terminare la registrazione in modo da dover gestire molti meno file.
 
-Togliere la visualizzazione del mouse nella selezione della fonte di registrazione video (c'è una checkbox da tickare).
+**Togliere la visualizzazione del mouse** nella selezione della fonte di registrazione video (c'è una checkbox da tickare).
 
 Impostare un colore per la fonte video che utilizzate più spesso in caso ne abbiate più di una, per avere un feedback ottico veloce sulla scelta della fonte giusta, andando sulla fonte video e facendo click destro su di essa, poi "Imposta un colore".
 
-Tenere la finestra di Teams a schermo intero, se possibile, per evitare di abbassare troppo la qualità video, nonostante la scalatura bicubica risolva in parte il problema.
+**Tenere la finestra di Teams a schermo intero**, se possibile, per evitare di abbassare troppo la qualità video, nonostante la scalatura bicubica risolva in parte il problema.
 
-Salvare in .mkv poi convertire in .mp4 una volta finite le registrazioni.
+**Salvare in .mkv poi convertire in .mp4** una volta finite le registrazioni.
 
 Cancellare i file .mkv dopo la conversione ma non prima di aver controllato che le conversioni .mp4 siano non corrotte.
 
@@ -128,7 +146,7 @@ Potrebbe tornare utile avere un programma per editare _velocemente e con affidab
 
 
 ### Ritaglio 
-Per ritagliare l'inizio e/o la fine di una registrazione esiste un metodo semplice su Windows10 che consente di non scaricare altri programmi: una volta convertita la registrazione in .mp4 selezionare il file e con il click selezionare "Apri con..." e selezionare il programma "Foto". Il file verrà aperto in Foto e dal menù in alto selezionare "Ritaglio".
+Per ritagliare l'inizio e/o la fine di una registrazione esiste un metodo semplice su Windows10 che consente di non scaricare altri programmi: una volta convertita la registrazione in .mp4 selezionare il file e con il click destro selezionare "Apri con..." e selezionare il programma "Foto". Il file verrà aperto in Foto e dal menù in alto selezionare "Ritaglio".
 
 
 ## Compressione file
