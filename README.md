@@ -86,13 +86,20 @@ Cliccare ora sul "+" in basso a sinistra in questa finestra e poi su "Riduzione 
 
 
 ## Salvataggio registrazioni e conversione 
-Per avviare una registrazione cliccare su Avvia registrazione nella parte in basso a destra della schermata di OBS o tramite shortcut (vedi più avanti). Una volta premuto la registrazione è in corso e il bottone diventerà Termina Registrazione. 
 
-Una volta cliccato su Termina Registrazione questa verrà salvata automaticamente in una cartella predefinita (normalmente la cartella Video) che può essere cambiata nelle impostazioni, per il salvataggio non viene richiesta conferma all'utente.
+### Registrazione
+
+Per avviare una registrazione cliccare su Avvia registrazione nella parte in basso a destra della schermata di OBS o tramite shortcut (vedi [Shortcut](#creazione-shortcut)). Una volta premuto la registrazione è in corso e il bottone diventerà Termina Registrazione. 
+
+Una volta cliccato su Termina Registrazione questa **verrà salvata automaticamente** in una cartella predefinita (normalmente la cartella Video) che può essere cambiata nelle impostazioni, per il salvataggio non viene richiesta conferma all'utente.
 
 Si consiglia vivamente di **TOGLIERE IL PROPRIO MICROFONO dalla registrazione mutandolo** quando non lo si usa per fare interventi.
 
-Le impostazioni predefinite di OBS consigliano di registrare in formato .mkv (è una sorta di (soon...)), che è però scomodo per la condivisione e la visulizzazione soprattutto da browser (formato file non supportato per visualizzazione automatica), ma è tuttavia l'unico formato che preserva il salvataggio del file in caso di crash improvvisi (a me mai accaduti, però...),  quindi una volta fatto Termina Registrazione il file viene salvato in automatico e si può convertire semplicemente andando su File -> Converti le Registrazioni
+Le impostazioni predefinite di OBS consigliano di registrare in formato .mkv (vedi [formato file Matroska su wiki](https://it.wikipedia.org/wiki/Matroska)), che è però scomodo per la condivisione e la visulizzazione soprattutto da browser (formato file non supportato per visualizzazione automatica), ma è tuttavia l'unico formato che preserva il salvataggio del file in caso di crash improvvisi (a me mai accaduti, però...),  quindi una volta fatto Termina Registrazione il file viene salvato in automatico e si può convertire semplicemente.
+
+### Conversione
+
+Per convertire un file salvato in formato .mkv andare su File -> Converti le Registrazioni.
 
 ![alt text](/cartellaScreen/convReg.png) 
 
@@ -108,7 +115,7 @@ Il processo dura sui 10s, potete cambiare nome e destinazione del file covertito
 Certamente una qualità audio e video ottima sarebbe sempre da preferirsi a qualità minori, tuttavia la dimensione dei file ne poterebbe risentire notevolmente, quindi in caso si pianifichi di mantenere a lungo le registrazioni che si accumulano e non avendo a disposizione uno storage infinito si consigliano impostazioni che mantengono la dimensione dei file nell'intorno dei 200-900MB per la lunghezza media di una lezione (da una a quattro ore). 
   * Qualità video: 1920x1080 scalata a 1280x720 (calcolando comunque eventuali bande ritagliate) a 30fps, scalatura bicubica
   * Qualità audio: 44.1KHz (impostazioni di base, non hanno grande influenza sulle dimensioni, salva con 160 di bitrate normalmente)
-  * Qualità file: **Alta qualità, dimesione dei file medie**, salvata in .mkv poi convertita in .mp4 (sempre tramite OBS, vedi Conversione).
+  * Qualità file: **Alta qualità, dimesione dei file medie**, salvata in .mkv poi convertita in .mp4 (sempre tramite OBS, vedi [Conversione](#conversione)).
 
 ![alt text](/cartellaScreen/impVid.png) 
 
