@@ -9,7 +9,6 @@
 **[Editing e Compressione file](#editing-e-compressione-file)**<br>
 **[Impostazioni Consigliate](#impostazioni-consigliate-per-dimensioni-file)**<br>
 **[TroubleShooting](#troubleshooting)**<br>
-**[NEWS (UniBo)](#news-unibo)**<br>
 **[Licensing](#licensing)**<br>
 **[Collaboratori](#collaboratori)**<br>
 
@@ -99,7 +98,7 @@ Le impostazioni predefinite di OBS consigliano di registrare in formato .mkv (ve
 
 ### Conversione
 
-Per convertire un file salvato in formato .mkv andare su File -> Converti le Registrazioni.
+Per convertire un file (salvato in formato .mkv) in .mp4 (o formati simili) andare su File -> Converti le Registrazioni.
 
 ![alt text](/cartellaScreen/convReg.png) 
 
@@ -107,8 +106,13 @@ Si apre una finestra, click sui tre puntini al centro (Sfoglia file), scegliete 
 
 ![alt text](/cartellaScreen/finConv.png) 
 
-Il processo dura sui 10s, potete cambiare nome e destinazione del file covertito, si consiglia di lasciare il nome dato da OBS.
+Il processo dura circa 1s ogni 100MB, potete cambiare nome e destinazione del file covertito, si consiglia di lasciare il nome dato da OBS.
 
+#### Conversione automatica
+
+OBS ha un'opzione che consente di convertire automaticamente il file della registrazione appena terminata nel formato MP4 salvando il nuovo file con lo stesso nome del file .mkv e nella stessa cartella di destinazione.
+
+Per abilitare questa opzione andare su (File ->) Impostazioni -> Avanzate e nella sezione "Registrazioni" mettere una spunta sul checkbox "Converti automaticamente in MP4".
 
   
 ## Impostazioni Consigliate per dimensioni file
@@ -241,12 +245,6 @@ Ora potrete scegliere quale uscita audio utilizzare, in due modi:
 Ora aprendo OBS potrete aggiungere l'uscita audio e tenendo l'uscita audio del Mac su "OBS" (o l'altro nome lungo se non l'avete rinominata OBS) potrete registrare l'audio desktop.
 
 
-## News UniBo
-
-Dal 7 Aprile 2020 (circa) UniBo ha deliberato per dare la possibilita ai professori di registare le lezioni tramite lo strumento apposito di Microsoft Teams, per poi pubblicare le registrazioni in privato con i propri studenti. Il canale più utilizzato al momento per condividere queste registrazioni è la chat delle riunioni stesse su Teams o in alternativa il software Microsoft Stream, una sorta di hub di condivisione video. 
-
-Si ringrazia di cuore UniBo ed il Magnifico Rettore per la delibera.
-
 
 ## Licensing 
 
@@ -264,6 +262,3 @@ Roman Sudin per la parte di Compressione dei file
 Luca Sammarini per varie correzioni e suggerimenti.
 
 I professori che si sono dimostrati disponibili alla libera fruizione delle registrazioni da parte dei loro studenti.
-
-Un ulteriore ringraziamento al Magnifico Rettore di UniBo per la delibera ai professori di poter registrare attraverso Teams.
-
