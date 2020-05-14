@@ -4,7 +4,7 @@
 **[Cosa, Come, Perché](#cosa)**<br>
 **[Disclaimer](#disclaimer)**<br>
 **[Guida](#guida)**<br>
-**[_(new)_ Registare solo una finestra](#registrare-solo-una-finestra)**<br>
+**[Registare solo una finestra](#registrare-solo-una-finestra)**<br>
 **[Consigli](#consigli-vari)**<br>
 **[Editing e Compressione file](#editing-e-compressione-file)**<br>
 **[Impostazioni Consigliate](#impostazioni-consigliate-per-dimensioni-file)**<br>
